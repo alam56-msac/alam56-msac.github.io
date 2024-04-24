@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anthony Lam's Portfolio</title>
+        <!-- Add your own choice of Google Web Fonts -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- 
+            Anthony Lam
+            Midterm - Student Portfolio
+            April 23, 2024
+        -->
+    </head>
+
+    <body>
+        <main>
+            <!-- ***************  ABOUT / PROFILE  **************** -->
+            <header>
+                <div class="content-wrap">
+                    <h1>Anthony Lam</h1>
+                    <h2>Data Scientist & Software/Web Developer</h2>
+
+                    <p>I love creating things, discovering patterns, and appreciating the beautiful.</p>
+                    <!-- e.g. I love building websites, and learning to code! -->
+                    <p>I enjoy mathematics, philosophy, classical music, and Japanese culture.</p>
+                    <!-- e.g. I spent my weekends in the mountains hiking with my friends. -->
+                </div>
+            </header>
+
+            <!-- ************ PROJECTS / PORTFOLIO  ************** -->
+            <!-- This section will contain some projects you are working on in school, or out of school
+            You can put your clubs or other affiliations here -->
+
+            <section class="projects">
+                <div class="content-wrap divider">
+                    <h2>Featured Projects</h2>
+                    <p>Here are some projects that I am working on right now.</a>.</p>
+
+                    <!-- Project 1 -->
+                    <section class="project-item">
+                        <!-- Add an image to feature your project -->
+                        <img src="img/translation-icon-1.png" alt="Translation Icon owo">
+                        <h3>Japanese OCR Auto-translator</h3>
+                        <p>A small application that uses OpenCV to capture hard-subtitled Japanese text 
+                            and Tesseract OCR to detect and grab the Japanese text within the screenshot. 
+                            Then use an LLM model alongside Ollama or a translating transformer given by 
+                            Hugging Face to auto-correct errors within the OCR and translate the Japanese 
+                            text into English.
+                        </p>
+                        <a class="btn" href="https://github.com/williamqin14/ocr-translator" target="_blank">Link to my project.</a>
+                    </section>
+
+                    <!-- Project 2 -->
+                    <section class="project-item">
+                        <!-- Add an image to feature your project -->
+                        <img src="img/database-icon-1.png" alt="Database Icon kek">
+                        <h3>Data Orchestration and ETL Task</h3>
+                        <p>Creating two SSIS packages that perform OLTP tasks, one exporting transaction 
+                            data from a database into multiple flat files of a certain size with metadata 
+                            contained within the file, and the other importing the said flat file into the 
+                            database. This is to be used to transfer transaction data between multiple server 
+                            locations. 
+                        </p>
+                        <!-- Cannot share project -->
+                        <!-- <a class="btn" href="" target="_blank">Link to Project 2</a> -->
+                    </section>
+
+                    <!-- Project 3 -->
+                    <section class="project-item">
+                        <!-- Add an image to feature your project -->
+                        <img src="img/discord-logo-1.png" alt="Discord Logo Pog">
+                        <h3>PDF-to-PNG Discord Bot</h3>
+                        <p>Created a Discord bot that converts a user-submitted PDF into PNGs so that Discord 
+                            can embed the pages without having to download the file. Created Using the official 
+                            Discord.py API alongside the Fitz library, and hosted on AWS using Amazon EC2.
+                        </p>
+                        <a class="btn" href="https://github.com/TonyKaito/PDF_Reader_Bot" target="_blank">Link to my project.</a>
+                    </section>
+                </div>
+            </section>
+
+            <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
+
+            <!-- Here is where you will list your classes and the degree you are pursuing -->
+            <section class="education">
+                <div class="content-wrap item-details">
+                    <h2>Education</h2>
+
+                    <!-- If you are working on the certificate, add this here, or put in your own program information -->
+                    <section>
+                        <h3>B.S. Computer Science</h3>
+                        <p>August 2018 - May 2023</p>
+                        <p>The undergraduate computer science program at Cal State Fullerton offers students a comprehensive foundation that will permit them to adapt to new technologies and new ideas. The program spans a wide range, from its theoretical and algorithmic foundations to cutting-edge developments in bioinformatics, communications systems, computer security, databases, digital game design, intelligent systems, software engineering, and other exciting areas.</p>
+                        <!-- https://catalog.fullerton.edu/preview_program.php?catoid=17&poid=8116 -->
+                        <a class="btn"
+                            href="https://catalog.fullerton.edu/preview_program.php?catoid=17&poid=8116"
+                            target="_blank">Computer Science Catalog Info</a>
+                    </section>
+
+                    <section>
+                        <h3>CIS Big Data Analytics</h3>
+                        <p>March 2024 - Current</p>
+                        <p>A CIS certificate in Big Data Analytics will provide students with the knowledge and skills to obtain jobs in the areas of data science, data analysis, Big Data, and data mining. </p>
+                        <!-- https://catalog.mtsac.edu/programs/programsaz/computer-database-management-systems/big-data-analytics/ -->
+                        <a class="btn"
+                            href="https://catalog.mtsac.edu/programs/programsaz/computer-database-management-systems/big-data-analytics/"
+                            target="_blank">Big Data Certificate</a>
+                    </section>
+
+                    <section>
+                        <h3>CIS Cloud Computing for Amazon Web Services</h3>
+                        <p>March 2024 - Current</p>
+                        <p>The CIS Cloud Computing for Amazon Web Services certificate program prepares students to design solutions for Infrastructure as a Service (IaaS) architectures by provisioning computing instances, establishing virtual private networks, managing databases and storage within a secure online environment.</p>
+                        <!-- https://catalog.mtsac.edu/programs/programsaz/cis-cloud-computing-amazon-web-services/ -->
+                        <a class="btn"
+                            href="https://catalog.mtsac.edu/programs/programsaz/cis-cloud-computing-amazon-web-services/"
+                            target="_blank">Cloud Computing Certificate</a>
+                    </section>
+
+                    <!-- List your classes here -->
+                    <br>
+                    <section>
+                        <h3>HTML, CSS, and Javascript Programming</h3>
+                        <p>Spring 2024</p>
+                        <p>Plan, program, implement, publish, and maintain web sites using Hypertext Markup Language version 5 (HTML5), Cascading Style Sheets version 3 (CSS3), and JavaScript.</p>
+                    </section>
+
+                    <section>
+                        <h3>Introduction to Data Science</h3>
+                        <p>Spring 2024</p>
+                        <p>Goals are to learn how to use tools for acquiring, cleaning, analyzing, exploring, and visualizing data; making data-driven inferences and decisions; and effectively communicating results.</p>
+                    </section>
+
+                    <section>
+                        <h3>Introduction to Cloud Computing</h3>
+                        <p>Spring 2024</p>
+                        <p>Topics includes cloud computing technologies, cloud services (storage, servers and software applications), cloud providers, industry cloud practices, cloud careers, and industry demand for cloud skills.</p>
+                    </section>
+                </div>
+            </section>
+
+            <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+            <footer>
+                <div class="content-wrap">
+                    <h2>Contact Me</h2>
+
+                    <!-- Social media and contact links. Add or remove any networks. -->
+                    <ul class="contact-list">
+                        <li><a href="mailto:alam56@student.mtsac.edu">alam56@student.mtsac.edu</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/anthony-lam-b28a9817a/" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </body>
+
+</html>
